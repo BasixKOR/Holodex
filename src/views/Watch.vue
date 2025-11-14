@@ -35,6 +35,7 @@
               autoplay: isPlaylist ? 1 : 0,
               playsinline: 1,
               cc_lang_pref: getLang,
+              hl: getLang,
             }"
             @ready="ready"
             @playing="playing"

@@ -17,6 +17,7 @@
                 autoplay: 1,
                 playsinline: 1,
                 cc_lang_pref: getLang,
+                hl: getLang,
               }"
               @ready="ready"
             />
